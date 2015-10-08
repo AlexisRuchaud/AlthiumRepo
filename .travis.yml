@@ -1,1 +1,4 @@
 language: java
+jdk: oraclejdk8
+script:
+  - mvn clean verify -f fr.univnantes.alma.releng/pom.xml
